@@ -1,0 +1,91 @@
+body {
+    background-color: #222;
+    color: yellow;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#header {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50px;
+    width: 350px;
+    margin: 0 auto 30px auto;
+    box-shadow: 0 0 15px yellow;
+    transform: rotate(-2deg);
+}
+
+#heading {
+    color: black;
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px #ffcc00;
+}
+
+#login {
+    background-color: #333;
+    padding: 25px;
+    border: 3px dashed yellow;
+    border-radius: 30px;
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px yellow;
+}
+
+#login label {
+    display: block;
+    margin: 15px 0 5px 0;
+    color: #fff700;
+    font-size: 1.1rem;
+}
+
+#login input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    background-color: black;
+    color: yellow;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+#login input:focus {
+    outline: none;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px yellow;
+}
+
+#login button {
+    background-color: yellow;
+    color: black;
+    padding: 12px 25px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: #ffcc00;
+    transform: scale(1.1) rotate(-2deg);
+}
+
+#login a {
+    display: block;
+    margin-top: 20px;
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+#login a:hover {
+    color: #fff700;
+    text-shadow: 0 0 5px yellow;
+}

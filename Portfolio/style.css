@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: hsl(217, 94%, 15%);
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul{
+    display: flex;
+    position: relative;
+    gap: 3px;
+    right: 30px;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+nav a:hover{
+    background-color: rgb(6, 81, 88);
+    padding: 10px;
+
+}
+nav h3{
+    color: white;
+    position: relative;
+    left: 30px;
+}
+.container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(/Image/67235.jpg);
+}
+.text{
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.img img{
+    width: 300px;
+    border-radius: 20px;
+}
+.btn{
+    padding: 2px;
+    background-color: rgb(43, 4, 79);
+    color: white;
+    width: 70px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(43, 4, 79);
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.icon a{
+    text-decoration: none;
+    font-size: x-large;
+}
+.icon a:hover{
+    color: blue;
+}
+#container2 h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(76, 62, 88);
+
+}
+article{
+    width: 40%;
+    height: 300px;
+    color: white;
+    background-color: hsl(271, 88%, 13%);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+article h2,#skill h2{
+    text-align: center;
+    color: white;
+}
+#skill{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    background-color: rgb(109, 88, 127);
+    position: relative;
+    
+}
+#skill ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    color: white;
+   
+}
+aside{
+    background-color: blueviolet;
+    height: 150px;
+    width: 40%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#skill a{
+    text-decoration: none;
+    font-size: xx-large;
+}
+#skill a:hover{
+    color: blue;
+    
+}
+@media  screen and (max-width:600px) {
+    aside{
+        height: 100%;
+        width: 100%;
+        
+    }
+    aside ul{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    aside li{
+        display: flex;
+
+    }
+    article{
+        height: 100vh;
+        border-radius: 0;
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #skill{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text{
+        position: relative;
+        top: 30px;
+    }
+    
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .container3{
+        margin-top: 255px;
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+}
+.project{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.gallery img{
+    width: 200px;
+    border-radius: 20px;
+}
+.gallery a:hover{
+    zoom: 110%;
+    
+}
+.container3{
+    color: white;
+    display: grid;
+    gap: 1em;
+    text-align: center;
+    background-color: rgb(49, 22, 75);
+    height: 100%;
+    width: 100%;
+}
+footer{
+    background-color: rgb(91, 5, 117);
+    padding: 10px;
+    color: wheat;
+    text-align: center;
+}

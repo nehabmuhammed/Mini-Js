@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dark Mode</title>
+</head>
+<body>
+  
+    <header>
+        <nav class="navbar">
+            <h1>MyPortfolio</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="/images/—Pngtree—vector new moon icon_4195703.png" alt="" id="img">  
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Hello, I'm Nehab</h2>
+        <p>A passionate Web Developer</p>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I love building websites and learning new technologies like HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>Weather App</li>
+            <li>Todo List</li>
+        </ul>
+      
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nehab. All Rights Reserved.</p>
+    </footer>
+
+<script>
+    var dark = document.getElementById("img");
+    dark.onclick = function() {
+        document.body.classList.toggle("darktheme");
+    }
+</script>
+</body>
+</html>
