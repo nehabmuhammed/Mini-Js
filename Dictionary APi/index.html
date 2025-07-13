@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DICTIONARY</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h1>DICTIONARY</h1>
+    </header>
+     <section id="container">
+           <div class="input-section">
+            <h1 id="heading"></h1>
+            <audio controls autoplay>
+                <source src="" id="phonectic">
+            </audio>
+        <input type="text" id="word" placeholder="Enter Something">
+        <button onclick="API()">Meaning</button>
+    </div>
+     </section>
+     <div class="container2">
+        <aside>
+            <h1>Meaning</h1>
+            <p>Part of speech: <span id="partofspeech"></span></p>
+            <p>Definition: <span id="definition"></span></p>
+
+        </aside>
+        <article>
+            <h1>SYNONYMS</h1>
+            <ul id="synonyms">
+
+            </ul>
+        </article>
+     </div>
+    </div>
+     
+    <script src="/script.js"></script>
+</body>
+</html>
